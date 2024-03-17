@@ -7,5 +7,6 @@ pub fn square(s: u32) -> u64 {
 
 pub fn total() -> u64 {
 
-    (1..=64).map(square).sum()
+   let total_grain = (1..=64).map(square).sum();
+    total_grain
 }
